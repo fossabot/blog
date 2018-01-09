@@ -1,0 +1,15 @@
+module.exports = {
+  bodyBackground: '#31343c',
+  bodyColor: '',
+  headerBackground: '',
+  headerColor: '',
+  postBackground: '',
+  postTitleColor: '',
+  postFooterBackground: '',
+  postFooterColor: '',
+  postColor: '',
+  footerBackground: '',
+  footerColor: '',
+  navLinkColor: '',
+  drawerBackground: '',
+}

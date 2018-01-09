@@ -1,0 +1,52 @@
+{
+  "name": "blog",
+  "description": "Personal Blog",
+  "version": "0.1.0",
+  "author": "Gagan",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/gagan0723/gatsby-blog"
+  },
+  "keywords": [
+    "gatsby",
+    "Blog"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "format": "npm run format-js && npm run format-markdown",
+    "format-js": "prettier-eslint --write \"**/*.js\"",
+    "format-markdown": "prettier-eslint --write \"**/*.md\" --semi",
+    "lint": "eslint '**/*.{js}' --ignore-path .gitignore",
+    "precommit": "lint-staged"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.145",
+    "gatsby-link": "^1.6.32",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "react": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "serve": "^6.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.4.0",
+    "eslint-plugin-react": "^7.5.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.2",
+    "prettier-eslint-cli": "^4.7.0"
+  },
+  "lint-staged": {
+    "*.{js,json,css}": [
+      "prettier-eslint --write",
+      "git add"
+    ]
+  }
+}
