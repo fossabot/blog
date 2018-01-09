@@ -1,4 +1,5 @@
-# Personal Blog 
+# Personal Blog
+
 This is my personal blog
 
 LICENSE
