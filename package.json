@@ -5,12 +5,9 @@
   "author": "Gagan",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/gagan0723/gatsby-blog"
+    "url": "https://github.com/gagan0723/blog"
   },
-  "keywords": [
-    "gatsby",
-    "Blog"
-  ],
+  "keywords": ["gatsby", "Blog"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -44,9 +41,6 @@
     "prettier-eslint-cli": "^4.7.0"
   },
   "lint-staged": {
-    "*.{js,json,css}": [
-      "prettier-eslint --write",
-      "git add"
-    ]
+    "*.{js,json,css}": ["prettier-eslint --write", "git add"]
   }
 }
